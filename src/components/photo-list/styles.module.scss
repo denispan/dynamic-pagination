@@ -1,0 +1,13 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.item {
+  padding: 2rem;
+}
+
+.item:not(:last-child) {
+  border-bottom: 1px solid tomato;
+}
