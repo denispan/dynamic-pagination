@@ -1,5 +1,10 @@
 import styles from './styles.module.scss';
-import {Photo} from './types.ts';
+
+export interface Photo {
+  id: number,
+  title: string,
+  thumbnailUrl: "https://via.placeholder.com/150/771796"
+}
 
 export const PhotoItem = ({id, title, thumbnailUrl}: Photo) => {
 

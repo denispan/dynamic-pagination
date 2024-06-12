@@ -1,6 +1,5 @@
 import styles from './styles.module.scss';
-import {PhotoItem} from '../photo-item/photo-item.tsx';
-import {Photo} from '../photo-item/types.ts';
+import {Photo, PhotoItem} from '../photo-item/photo-item.tsx';
 
 interface Props {
   photos: Photo[]

@@ -1,9 +1,9 @@
 .loader {
-  position: absolute;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
   background-color: transparent;
 
   ul {
