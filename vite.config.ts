@@ -1,6 +1,5 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import {getBasePath} from './src/utils/system/get-base-path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -10,5 +9,5 @@ export default defineConfig({
       localsConvention: "camelCase",
     },
   },
-  base: getBasePath(),
+  base: 'dynamic-pagination',
 })
